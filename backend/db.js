@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const dbURI = 'mongodb+srv://PLANit:jafar123@clusterplanit.yqlwal3.mongodb.net/PLANitMERN?retryWrites=true&w=majority'
+const dbURI = '***'
 
 const mongoDB = async () => {
     await mongoose.connect(dbURI, async (err, result) => {
